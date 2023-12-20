@@ -46,6 +46,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+hammingDistance = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances-hamming@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-distances-hamming/tags). For example,
+
+```javascript
 hammingDistance = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances-hamming@v0.1.0-umd/browser.js' )
 ```
 
@@ -58,7 +63,7 @@ var hammingDistance = require( 'path/to/vendor/umd/string-base-distances-hamming
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances-hamming@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances-hamming@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -119,7 +124,7 @@ dist = hammingDistance( '1638452297', '2311638451' );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances-hamming@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances-hamming@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
