@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-distances-hamming",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Calculate the Hamming distance between two equal-length strings.",
   "license": "Apache-2.0",
   "author": {
