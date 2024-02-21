@@ -44,6 +44,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import hammingDistance from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances-hamming@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-distances-hamming/tags). For example,
+
+```javascript
 import hammingDistance from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances-hamming@v0.2.1-deno/mod.js';
 ```
 
@@ -92,7 +97,7 @@ dist = hammingDistance( '1638452297', '2311638451' );
 ## Examples
 
 ```javascript
-import hammingDistance from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances-hamming@v0.2.1-deno/mod.js';
+import hammingDistance from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances-hamming@deno/mod.js';
 
 var dist = hammingDistance( 'algorithms', 'altruistic' );
 // returns 7
