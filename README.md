@@ -44,7 +44,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import hammingDistance from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances-hamming@deno/mod.js';
+import hammingDistance from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances-hamming@v0.2.1-deno/mod.js';
 ```
 
 #### hammingDistance( s1, s2 )
@@ -92,7 +92,7 @@ dist = hammingDistance( '1638452297', '2311638451' );
 ## Examples
 
 ```javascript
-import hammingDistance from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances-hamming@deno/mod.js';
+import hammingDistance from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-distances-hamming@v0.2.1-deno/mod.js';
 
 var dist = hammingDistance( 'algorithms', 'altruistic' );
 // returns 7
